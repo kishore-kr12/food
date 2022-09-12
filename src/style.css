@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.App{
+    min-height: 100vh;
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+}
+
+.search-form{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.search-button{
+    border: none;
+    background-color: #BDBBBE;
+    padding: 10px 20px;
+    color: white;
+}
+.recipe{
+   font-family: 'Poppins', sans-serif;
+   border-radius: 10px;
+   box-shadow: 0px 5px 20px rgb(71,71,71); 
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-color: rgba(255, 255, 255, 0.867);
+   align-items: center;
+   min-width: 40%;
+}
+.image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.cal{
+    font-weight: bold;
+    font-size: 1.2em;
+}
